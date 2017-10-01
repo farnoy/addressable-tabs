@@ -1,0 +1,81 @@
+{
+  "manifest_version": 2,
+  "name": "addressable-tabs",
+  "version": "1.0",
+  "description": "Makes tabs addressable by ctrl+[0-9] keystrokes",
+  "commands": {
+    "tab0": {
+      "suggested_key": {
+        "default": "Ctrl+1",
+        "linux": "Ctrl+1"
+      },
+      "description": "Switch to tab 1"
+    },
+    "tab1": {
+      "suggested_key": {
+        "default": "Ctrl+2",
+        "linux": "Ctrl+2"
+      },
+      "description": "Switch to tab 2"
+    },
+    "tab2": {
+      "suggested_key": {
+        "default": "Ctrl+3",
+        "linux": "Ctrl+3"
+      },
+      "description": "Switch to tab 3"
+    },
+    "tab3": {
+      "suggested_key": {
+        "default": "Ctrl+4",
+        "linux": "Ctrl+4"
+      },
+      "description": "Switch to tab 4"
+    },
+    "tab4": {
+      "suggested_key": {
+        "default": "Ctrl+5",
+        "linux": "Ctrl+5"
+      },
+      "description": "Switch to tab 5"
+    },
+    "tab5": {
+      "suggested_key": {
+        "default": "Ctrl+6",
+        "linux": "Ctrl+6"
+      },
+      "description": "Switch to tab 6"
+    },
+    "tab6": {
+      "suggested_key": {
+        "default": "Ctrl+7",
+        "linux": "Ctrl+7"
+      },
+      "description": "Switch to tab 7"
+    },
+    "tab7": {
+      "suggested_key": {
+        "default": "Ctrl+8",
+        "linux": "Ctrl+8"
+      },
+      "description": "Switch to tab 8"
+    },
+    "tab8": {
+      "suggested_key": {
+        "default": "Ctrl+9",
+        "linux": "Ctrl+9"
+      },
+      "description": "Switch to tab 9"
+    },
+    "tab9": {
+      "suggested_key": {
+        "default": "Ctrl+0",
+        "linux": "Ctrl+0"
+      },
+      "description": "Switch to tab 10"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
