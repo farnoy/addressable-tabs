@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "addressable-tabs",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Makes tabs addressable by ctrl+[0-9] keystrokes",
   "commands": {
     "tab0": {
